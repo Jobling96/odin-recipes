@@ -1,0 +1,67 @@
+/* All pages CSS */
+.alltxt{
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Home page CSS */
+.htitle{
+   text-align: center;
+   background-color: lightgreen;
+    margin-top: 0px;
+    padding: 10px;
+}
+.welcome{
+    background: lightgreen;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+.rcp1,
+.rcp2,
+.rcp3{
+    border: 2px solid black;
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: center;
+    width:254px;
+    margin:10px;
+}
+
+.pastaimg,
+.lsgimg,
+.riceimg{
+    display: block;
+width: 250px;
+height:auto
+}
+
+    /* Pesto Pasta Recipe Page CSS */
+
+.pestotitle{
+    text-align: center;
+    border: 2px solid black;
+    
+}
+
+.pestoimgrcp{  
+    box-sizing: border-box;
+    display: inline-block;
+    width: 260px;
+    margin-top: 10px; 
+ }
+
+.pestoingredients{
+    box-sizing: border-box;
+    display: inline-block;
+    padding:5px;
+    width: 400px;
+    text-align: center;
+    border: 5px solid black;
+}
+
+.pestolist{
+    text-align: left;
+
+}
