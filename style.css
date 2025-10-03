@@ -39,18 +39,22 @@ height:auto
 
     /* Pesto Pasta Recipe Page CSS */
 
-.pestotitle{
+.pestotitle,
+.lasagnatitle,
+.burgertitle{
     text-align: center;
     border: 2px solid black;
     
 }
 
-.pestoimgrcp{  
-    box-sizing: border-box;
+.pestoimage{  
+     border: 2px solid rgb(255, 255, 255);
     display: inline-block;
-    width: 260px;
-    margin-top: 10px; 
+    box-sizing: border-box;
+    width:254px;
+    margin:10px;
  }
+
 
 .pestoingredients{
     box-sizing: border-box;
@@ -58,10 +62,51 @@ height:auto
     padding:5px;
     width: 400px;
     text-align: center;
-    border: 5px solid black;
+    border: 5px solid rgb(255, 255, 255);
+    margin-top: -100px;
 }
 
-.pestolist{
+.pestolist,
+.lasagnalisttxt,
+.burgerlisttxt{
     text-align: left;
+}
+
+.pestop1{
+    border: 2px lightgreen solid;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+/* lasagna + burger recipe page css */
+
+.lasagnaimg,
+.burgerimg{
+     border: 2px solid rgb(255, 255, 255);
+    display: inline-block;
+    box-sizing: border-box;
+    width:315px;
+    height: 315px;
 
 }
+
+.lasagnalist,
+.burgerlist{
+     border: 2px solid white;
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: center;
+    width:310px;
+    margin-bottom: -50px;
+}
+
+.burgerimg{
+    margin-top:10px
+}
+
+.burgerguide,
+.pestoguide,
+.lasagnaguide{
+    text-align: center;
+}
+
